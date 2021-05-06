@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('./img/background.jpg') center/cover no-repeat;
+  background-position-y: 0%;
+}
+
+.article1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 25px;
+}
+.main {
+  position: relative;
+  width: 250px;
+}
+.article2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(300%, 400%);
+}
+.color {
+  width: 5rem;
+  height: 5rem;
+}
